@@ -1,0 +1,44 @@
+{
+  "karakter": [
+    {
+      "id": 1,
+      "charName": "Thorsten",
+      "charCast": "Tolvaj",
+      "charLevel": 7,
+      "charKE": 33,
+      "charTE": 75,
+      "charVE": 137,
+      "charFP": 60,
+      "charEP": 8,
+      "charSFE": 2,
+      "charSPJ": 2,
+      "charSPB": 2
+    },
+    {
+      "id": 2,
+      "charName": "Leon",
+      "charCast": "Bajvivo",
+      "charLevel": 1,
+      "charKE": 33,
+      "charTE": 55,
+      "charVE": 104,
+      "charFP": 16,
+      "charEP": 8,
+      "charSFE": 3
+    },
+    {
+      "charName": "Zsoja",
+      "charCast": "Amazon",
+      "charLevel": "3",
+      "charKE": "23",
+      "charTE": "44",
+      "charVE": "99",
+      "charFP": "21",
+      "charEP": "9",
+      "charSFE": "3",
+      "charSPJ": "2",
+      "charSPB": "2",
+      "id": 3
+    }
+  ]
+}
