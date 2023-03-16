@@ -12,24 +12,25 @@ let newCharacter = {
     "charSFE": 0,
     "charSPJ": 0,
     "charSPB": 0,
-    }
+}
 
     function createKarakter(){
-    newCharacter.charName = document.getElementById("charName").value
-    newCharacter.charCast = document.getElementById("charCast").value
-    newCharacter.charLevel = document.getElementById("charLevel").value
-    newCharacter.charKE = document.getElementById("charKE").value
-    newCharacter.charTE = document.getElementById("charTE").value
-    newCharacter.charVE = document.getElementById("charVE").value
-    newCharacter.charFP = document.getElementById("charFP").value
-    newCharacter.charEP = document.getElementById("charEP").value
-    newCharacter.charSFE = document.getElementById("charSFE").value
-    newCharacter.charSPJ = document.getElementById("charSPJ").value
-    newCharacter.charSPB = document.getElementById("charSPB").value
+        newCharacter.charName = document.getElementById("charName").value
+        newCharacter.charCast = document.getElementById("charCast").value
+        newCharacter.charLevel = document.getElementById("charLevel").value
+        newCharacter.charKE = document.getElementById("charKE").value
+        newCharacter.charTE = document.getElementById("charTE").value
+        newCharacter.charVE = document.getElementById("charVE").value
+        newCharacter.charFP = document.getElementById("charFP").value
+        newCharacter.charEP = document.getElementById("charEP").value
+        newCharacter.charSFE = document.getElementById("charSFE").value
+        newCharacter.charSPJ = document.getElementById("charSPJ").value
+        newCharacter.charSPB = document.getElementById("charSPB").value
 
-    console.log(newCharacter)
-
+        console.log(newCharacter)
     }
+
+
     // function caracterCard(){
 
     // }

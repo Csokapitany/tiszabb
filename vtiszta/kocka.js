@@ -95,46 +95,45 @@ document.getElementById("mutatGomb").addEventListener("click", function() {
         }
 
         function createKarakter(){
-        newCharacter.charName = document.getElementById("charName").value
-        newCharacter.charCast = document.getElementById("charCast").value
-        newCharacter.charLevel = document.getElementById("charLevel").value
-        newCharacter.charKE = document.getElementById("charKE").value
-        newCharacter.charTE = document.getElementById("charTE").value
-        newCharacter.charVE = document.getElementById("charVE").value
-        newCharacter.charFP = document.getElementById("charFP").value
-        newCharacter.charEP = document.getElementById("charEP").value
-        newCharacter.charSFE = document.getElementById("charSFE").value
-        newCharacter.charSPJ = document.getElementById("charSPJ").value
-        newCharacter.charSPB = document.getElementById("charSPB").value
+            newCharacter.charName = document.getElementById("charName").value
+            newCharacter.charCast = document.getElementById("charCast").value
+            newCharacter.charLevel = document.getElementById("charLevel").value
+            newCharacter.charKE = document.getElementById("charKE").value
+            newCharacter.charTE = document.getElementById("charTE").value
+            newCharacter.charVE = document.getElementById("charVE").value
+            newCharacter.charFP = document.getElementById("charFP").value
+            newCharacter.charEP = document.getElementById("charEP").value
+            newCharacter.charSFE = document.getElementById("charSFE").value
+            newCharacter.charSPJ = document.getElementById("charSPJ").value
+            newCharacter.charSPB = document.getElementById("charSPB").value
 
-        console.log(newCharacter)
-
+            
         }
-        function caracterCard(){
+        
+        // function caracterCard(){
 
-
-
-        }
-
+        // }
+        
         document.getElementById("feltoltGomb").addEventListener("click", karakterFeltoltes);
         
         function karakterFeltoltes(){
-        createKarakter()
-        caracterCard()
-
-
+            createKarakter()
+        // caracterCard()
+        
+        
         fetch('http://localhost:3000/karakter', {
-        method: 'post',
-        headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(newCharacter)
+            method: 'post',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(newCharacter)
         }).then(function(response) {
             return response.json()
-            }).then(function(json) {
+        }).then(function(json) {
             console.log('parsed json: ', json)
-            }).catch(function(ex) {
+        }).catch(function(ex) {
             console.log('parsing failed: ', ex)
-            });
-            };
+        });
+    };
+    
