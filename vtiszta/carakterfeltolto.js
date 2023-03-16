@@ -81,26 +81,23 @@ let newCharacter = {
     // for(let i=0; i<karakter.lenght; i++)
     // { let adatok = document.getElementById("cardsPlace").innerHTML
     //   dynamic.innerHTML = `
-    output += `
- 
-       
+    output += `       
     <div class="col-md-6 col-lg-3">
          
     <div class="card bg-success">
     <button id="Load${karakter.id}" class="btn-lg">
             <div class="card-body text-center text-dark">
-            <li> Nev: ${karakter.charName}</li>
-            <li> Kaszt: ${karakter.charCast}</li>
-            <li> Szint: ${karakter.charLevel}</li>
-            <li> KE: ${karakter.charKE}</li>
-            <li> TE: ${karakter.charTE}</li>
-            <li> VE: ${karakter.charVE}</li>
-            <li> FP: ${karakter.charFP}</li>
-            <li> EP: ${karakter.charEP}</li>
-            <li> SFE: ${karakter.charSFE}</li>
-            <li> SPJ: ${karakter.charSPJ}</li>
-            <li> SPB: ${karakter.charSPB}</li>           
-                                                               
+                <li> Nev: ${karakter.charName}</li>
+                <li> Kaszt: ${karakter.charCast}</li>
+                <li> Szint: ${karakter.charLevel}</li>
+                <li> KE: ${karakter.charKE}</li>
+                <li> TE: ${karakter.charTE}</li>
+                <li> VE: ${karakter.charVE}</li>
+                <li> FP: ${karakter.charFP}</li>
+                <li> EP: ${karakter.charEP}</li>
+                <li> SFE: ${karakter.charSFE}</li>
+                <li> SPJ: ${karakter.charSPJ}</li>
+                <li> SPB: ${karakter.charSPB}</li>                    
             </div>
              Load ${karakter.id}</button>
         </div>

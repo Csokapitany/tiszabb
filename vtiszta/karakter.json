@@ -39,6 +39,20 @@
       "charSPJ": "2",
       "charSPB": "2",
       "id": 3
+    },
+    {
+      "charName": "KicsiPocsom",
+      "charCast": "Paladin",
+      "charLevel": "500",
+      "charKE": "10",
+      "charTE": "20",
+      "charVE": "30",
+      "charFP": "40",
+      "charEP": "50",
+      "charSFE": "60",
+      "charSPJ": "70",
+      "charSPB": "80",
+      "id": 4
     }
   ]
 }
